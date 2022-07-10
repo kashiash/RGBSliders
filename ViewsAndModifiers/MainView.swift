@@ -19,6 +19,10 @@ struct MainView: View {
                 .tabItem {
                     Label("Composition", systemImage: "square.and.pencil")
                 }
+            ContainerView()
+                .tabItem {
+                    Label("Container", systemImage: "square.and.pencil")
+                }
         }
     }
 }

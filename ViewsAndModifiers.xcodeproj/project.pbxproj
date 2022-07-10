@@ -13,6 +13,7 @@
 		A357245C287AEE5C0026295F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A357245B287AEE5C0026295F /* Preview Assets.xcassets */; };
 		A3572463287B018A0026295F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3572462287B018A0026295F /* MainView.swift */; };
 		A3572465287B01C60026295F /* CompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3572464287B01C60026295F /* CompositionView.swift */; };
+		A3572467287B122E0026295F /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3572466287B122E0026295F /* ContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A357245B287AEE5C0026295F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A3572462287B018A0026295F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A3572464287B01C60026295F /* CompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionView.swift; sourceTree = "<group>"; };
+		A3572466287B122E0026295F /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				A3572454287AEE5B0026295F /* ViewsAndModifiersApp.swift */,
 				A3572464287B01C60026295F /* CompositionView.swift */,
+				A3572466287B122E0026295F /* ContainerView.swift */,
 				A3572462287B018A0026295F /* MainView.swift */,
 				A3572456287AEE5B0026295F /* SliderView.swift */,
 				A3572458287AEE5C0026295F /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3572467287B122E0026295F /* ContainerView.swift in Sources */,
 				A3572457287AEE5B0026295F /* SliderView.swift in Sources */,
 				A3572465287B01C60026295F /* CompositionView.swift in Sources */,
 				A3572463287B018A0026295F /* MainView.swift in Sources */,
