@@ -38,12 +38,14 @@ struct ContainerView: View {
         GridStack(rows: 4, columns: 4) { row, col in
             VStack {
                 Image(systemName: "\(row * 4 + col).circle")
+                    .foregroundColor(.mint)
                 Text("R\(row) C\(col)")
+                    .foregroundColor(.red)
             }
         }
         .padding()
-        .foregroundColor(.mint)
-        .background(.yellow)
+        .foregroundColor(.green)
+        .background(.white)
     }
     
 //    var body: some View {
