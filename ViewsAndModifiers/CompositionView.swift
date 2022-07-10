@@ -11,7 +11,9 @@ struct CompositionView: View {
     var body: some View {
         VStack(spacing: 10) {
             CapsuleText(text: "First")
+                .foregroundColor(.white)
             CapsuleText(text: "Second")
+                .foregroundColor(.yellow)
         }
     }
     
@@ -24,7 +26,7 @@ struct CompositionView: View {
             Text(text)
                 .font(.largeTitle)
                 .padding()
-                .foregroundColor(.white)
+               
                 .background(.blue)
                 .clipShape(Capsule())
         }
