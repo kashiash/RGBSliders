@@ -10,14 +10,18 @@ import SwiftUI
 struct CompositionView: View {
     var body: some View {
         VStack(spacing: 10) {
-            Text("First")
-                .font(.largeTitle)
-                .padding()
-                .foregroundColor(.white)
-                .background(.blue)
-                .clipShape(Capsule())
+            CapsuleText(text: "First")
+            CapsuleText(text: "Second")
+        }
+    }
+    
+    
+    
+    struct CapsuleText: View {
+        var text: String
 
-            Text("Second")
+        var body: some View {
+            Text(text)
                 .font(.largeTitle)
                 .padding()
                 .foregroundColor(.white)
